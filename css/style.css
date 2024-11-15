@@ -1,0 +1,73 @@
+:root {
+  --primary-font-family: "Montserrat", sans-serif;
+  --secondry-font-family: "Edu AU VIC WA NT Pre", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/77.jpg);
+
+  background-position: center center;
+  background-size: cover;
+}
+
+.main h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 800;
+  color: aliceblue;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.quotesarea {
+  min-height: 250px;
+  color: aliceblue;
+  font-family: var(--secondry-font-family);
+  font-weight: 600;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.main p {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  color: aliceblue;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.main .quotesarea p {
+  font-family: var(--secondry-font-family);
+  font-weight: 600;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.button {
+  color: #ffffff;
+  font-size: 17px;
+  background-color: #e67e22;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 15px;
+  box-shadow: 0px 6px 0px #d35400;
+  transition: all 0.1s;
+}
+
+.button:active {
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 3px;
+}
+
+
+.main h1,
+.main p,
+.main .quotesarea p {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

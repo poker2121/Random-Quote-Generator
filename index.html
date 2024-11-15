@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Random Quotes Generator</title>
+    <link rel="icon" href="images/right.png" />
+  </head>
+  <body>
+
+    
+    <section class="main d-flex justify-content-center align-items-center">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h1><q> Quote of the Day </q></h1>
+              <p>Press the button below to receive a random quote!</p>
+            </div>
+            <button class="button" onclick="randomQuote()">Get Quote</button>
+            <div class="quotesarea mt-5">
+              <p id="Quote"></p>
+              <p id="author"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
